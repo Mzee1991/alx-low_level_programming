@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main -prints alphabet in lower and upper case
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
 	char c;
