@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all the single digit numbers of base 10
+ * main - prints the numbers since 0 to 9
  *
  * Retun: Always(Success)
  */
