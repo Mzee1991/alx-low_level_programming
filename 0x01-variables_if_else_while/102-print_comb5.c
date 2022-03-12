@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints 3 combinations of numbers
+ * main - Prints 3 combination of numbers
  *
  * Return: Always(Success)
  */
@@ -26,23 +26,25 @@ int main(void)
 						putchar(k);
 						putchar(j);
 
-						if (c + i + k + j == 227 && c == 57)
-						{
-							break;
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (c + i + j + k == 227 && c == 57)
+					{
+					break;
+					}
+					else
+					{
+					putchar(',');
+					putchar(' ');
+					}
 					}
 				}
 			}
 		}
+
 	}
 
 	putchar('\n');
 
 	return (0);
+
 }
 
