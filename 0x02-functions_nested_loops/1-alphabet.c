@@ -5,8 +5,14 @@
  *
  * Return: Always(Success)
  */
-
+void print_alphabet(void);
 int main(void)
+{
+	print_alphabet();
+	return (0);
+}
+
+void print_alphabet(void)
 {
 	char c;
 	for (c ='a'; c <= 'z'; c++)
@@ -14,7 +20,6 @@ int main(void)
 		putchar(c);
 	}
 	putchar('\n');
-
-	return (0);
 }
+
 
