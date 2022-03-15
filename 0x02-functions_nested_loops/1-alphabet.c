@@ -1,12 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 
-void print_alphabet_x10(void);
-int main(void)
-{
-    print_alphabet_x10(char);
-
-    return (0);
-}
+/**
+ * print_alphabet_x10 - prints alphabets 10 times
+ * Return:void
+ */
 
 void print_alphabet_x10(void)
 {
@@ -18,10 +15,10 @@ void print_alphabet_x10(void)
 		c = 'a';
 		while (c <= 'z')
 		{
-			putchar(c);
+			_putchar(c);
 			c++;
 		}
-		putchar('\n');
+		_putchar('\n');
 			i++;
 	}
 }
