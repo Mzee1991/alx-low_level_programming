@@ -5,7 +5,7 @@
  * @b: size to be allocated
  * Return: pointer to allocated memory or exit with 98
  **/
-void *malloc_checked(site_t b)
+void *malloc_checked(size_t b)
 {
 	void *p;
 
