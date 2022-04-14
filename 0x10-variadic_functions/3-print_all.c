@@ -11,14 +11,14 @@
 
 void print_all(const char * const format, ...)
 {
-unsigned int i = 0, j = 0;
+unsigned int x = 0, j = 0;
 char *str;
 va_list ls;
 va_start(ls, format);
 
-while (format && format[i])
+while (format && format[x])
 {
-switch (format[i])
+switch (format[x])
 {
 case 'c':
 printf("%c", va_arg(ls, int));
@@ -37,7 +37,7 @@ str = "(nil)";
 printf("%s", str);
 break;
 }
-j = i + 1;
+j = x + 1;
 
 while (format[j] && (format[j] == 'c' || format[j] == 'i' ||
 format[j] == 'f' || format[j] == 's'))
@@ -46,7 +46,7 @@ printf(", ");
 break;
 }
 
-i++;
+x++;
 }
 printf("\n");
 va_end(ls);
